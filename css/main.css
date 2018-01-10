@@ -26,3 +26,22 @@ footer {
  .flex-item {
     margin: 1em;
  }
+
+ .nav {
+     display: flex;
+     display: -webkit-flex;
+ }
+
+nav a {
+    color: hotpink
+}
+
+nav a:hover {
+    color: blueviolet;
+}
+
+ .nav li {
+     list-style-type: none;
+     margin: 1em;
+     color: blueviolet;
+ }
